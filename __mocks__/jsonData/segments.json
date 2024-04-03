@@ -1,0 +1,32 @@
+{
+    "segments" : [
+        {
+            "id": 1,
+            "icon": "/images/segments/food.png",
+            "title": "Our Food Division",
+            "content": "Apex Convenience Foods Limited (ACFL) is a new venture which has been planned based on a detailed analysis of the existing local",
+            "url" : "https://www.apexholdings.com/foods"
+          },
+          {
+            "id": 2,
+            "icon": "/images/segments/textile.png",
+            "title": "Our Textile Division",
+            "content": "Apex Textile Printing Mills Limited is a 100% export-oriented textile and garment manufacturing enterprises",
+            "url" : "https://www.apexholdings.com/textiles"
+          },
+          {
+            "id": 3,
+            "icon": "/images/segments/agro.png",
+            "title": "Our Agro Division",
+            "content": "We are driven by a simple philosophy, which is to enrich the lives of those who produce and those who consume",
+            "url" : "https://www.apexholdings.com/agro"
+          },
+          {
+            "id": 4,
+            "icon": "/images/segments/diagram.png",
+            "title": "Our Diversified Division",
+            "content": "Matex is producing and supplying high-quality active textile and leather auxiliaries to local industries",
+            "url" : "https://www.apexholdings.com/others"
+          }
+    ]
+}

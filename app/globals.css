@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.section-gap {
+   padding: 100px 0;
+}
+.section-gap-m {
+    padding: 50px 0px;
+}
+.section-gap-sm {
+    padding: 30px 10px;
+}
