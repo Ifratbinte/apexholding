@@ -14,12 +14,12 @@ export interface NavInterface {
     {
       id: 2,
       title: "About Us",
-      path: "#",
+      path: "#about",
     },
     {
       id: 3,
       title: "Our Businesses",
-      path: "#",
+      path: "#segments",
     },
     {
       id: 4,

@@ -1,5 +1,6 @@
 import Hero from '@/components/pages/Home/Hero'
 import Segments from '@/components/pages/Home/Segments/index'
+import KeyStrength from '@/components/pages/Home/Strength'
 import React from 'react'
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
     <div>
       <Hero/>
       <Segments/>
+      <KeyStrength/>
     </div>
   )
 }

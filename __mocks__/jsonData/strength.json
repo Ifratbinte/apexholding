@@ -1,0 +1,24 @@
+{
+    "counter" : [
+        {
+            "icon" : "./images/icon/users.png",
+            "number" : "22000",
+            "content" : "Total Employee"
+        },
+        {
+            "icon" : "./images/icon/business.png",
+            "number" : "15",
+            "content" : "Total Business Concern"
+        },
+        {
+            "icon" : "./images/icon/export.png",
+            "number" : "6",
+            "content" : "Export Oriented Company"
+        },
+        {
+            "icon" : "./images/icon/graph.png",
+            "number" : "2",
+            "content" : "Public Listed Companies"
+        }
+    ]
+}
