@@ -37,12 +37,12 @@ const Menu = () => {
           />
           <Navigation />
         </div>
-      <button
-        className="btn visible lg:hidden"
-        onClick={() => setIsVisible((prevState) => !prevState)}
-      >
-        <FiAlignRight className="text-2xl lg:relative text-primary" />
-      </button>
+        <button
+          className="btn visible lg:hidden"
+          onClick={() => setIsVisible((prevState) => !prevState)}
+        >
+          <FiAlignRight className="text-2xl lg:relative text-primary" />
+        </button>
       </div>
     </div>
   );

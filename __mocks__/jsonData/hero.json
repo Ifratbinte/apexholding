@@ -1,0 +1,22 @@
+{
+    "hero" : {
+        "banner" : [
+            {
+                "banner_img" : "/images/bg/banner-1.jpg",
+                "content" : "lorem ipsum"
+            },
+            {
+                "banner_img" : "/images/bg/banner-2.jpg",
+                "content" : "lorem ipsum"
+            },
+            {
+                "banner_img" : "/images/bg/banner-3.jpg",
+                "content" : "lorem ipsum"
+            },
+            {
+                "banner_img" : "/images/bg/banner-4.jpg",
+                "content" : "lorem ipsum"
+            }
+        ]
+    }
+}
