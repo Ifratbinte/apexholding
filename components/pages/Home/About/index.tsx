@@ -17,8 +17,8 @@ const About = () => {
                 <img src="/images/gallery/gallery-2.jpg" alt="about" className='absolute h-[250px] bottom-6 -left-32 lg:-left-12 xl:-left-6 2xl:left-20 hidden md:block'/>
             </div>
           </div>
-        </div>
-      </section>
+      </div>
+    </section>
   )
 }
 

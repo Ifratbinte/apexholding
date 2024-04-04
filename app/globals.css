@@ -71,3 +71,17 @@ body{
 .slick-dots li.slick-active button:before {
     color: #3ab898 !important;
 }
+
+/* Hero */
+.hero_shape_rotate{
+    content: '';
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: -190px;
+    right: -80px;
+    background: #e6f9ef;
+    transform: rotate(-13deg);
+    border-radius: 50px;
+    z-index: -1;
+}
