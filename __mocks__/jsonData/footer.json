@@ -1,0 +1,12 @@
+{
+    "name" : "Apex Holding Limited",
+    "description" : "Apex Holdings Limited (AHL) is a holding company for the management of a wide range of manufacturing and export-oriented enterprises, ranging from Frozen & Convenience Foods, Textiles & Apparels, Chemicals & Agro businesses.",
+    "quicks_links" : [
+        { "title" : "Home" },
+        { "title" : "About" },
+        { "title" : "Our Business" },
+        { "title" : "Sustainability" },
+        { "title" : "Csr" },
+        { "title" : "Contact" }
+    ]
+}

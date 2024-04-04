@@ -1,4 +1,3 @@
-interface Hero {
+export default interface Hero {
     image : string
 }
-export default Hero
