@@ -12,7 +12,7 @@ const Certification = () => {
                 <div className='grid xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 w-full xl:w-[90%] '>
                     {certificationData.certification.map((certification:any, i:number) => {
                         return (
-                                <CertificationComponent thumb={certification.thumb}/>
+                                <CertificationComponent key={i} thumb={certification.thumb}/>
                             )
                         })}
                 </div>

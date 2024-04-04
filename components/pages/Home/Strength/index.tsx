@@ -9,7 +9,7 @@ import strengthCounter from "@/__mocks__/jsonData/strength.json"
 const KeyStrength = () => {
 const [count, setCount] = useState(false);
   return (
-    <section id="strength" className="section-gap">
+    <section id="strength" className="section-gap bg_gradient">
         <div className="container mx-auto ">
             <SectionTitle title='Key Strength'/>
             <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-6'>
@@ -19,7 +19,7 @@ const [count, setCount] = useState(false);
                     //     onEnter={() => setCount(true)}
                     //     onExit={() => setCount(false)}
                     // >
-                        <div className="gap-12 text-center cursor-pointer p-6 rounded-md shadow-base transition-all border border-transparent hover:border-[#42b7ca]" key={i}>
+                        <div className="gap-12 text-center cursor-pointer p-6 rounded-md shadow-base transition-all border bg-white border-transparent hover:border-[#42b7ca]" key={i}>
                             <img
                                 src={counter.icon}
                                 alt="count"

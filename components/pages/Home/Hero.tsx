@@ -14,7 +14,7 @@ const HeroComponent = () => {
   };
   const hero = heroData.hero.banner
   return (
-    <>
+    <div className='section-gap-b'>
       <Slider {...HeroSlider}>
         {hero.map((data: any, i:number ) => {
           return(
@@ -25,7 +25,7 @@ const HeroComponent = () => {
           )
         })}
       </Slider>
-    </>
+    </div>
   );
 };
 
