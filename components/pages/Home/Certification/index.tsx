@@ -7,7 +7,7 @@ const Certification = () => {
   return (
     <section id="certification" className="section-gap">
         <div className="container mx-auto ">
-            <SectionTitle title='Our Certifications'/>
+            <SectionTitle title={certificationData.title} subtitle={certificationData.subtitle}/>
             <div className="flex items-center justify-center px-6 xl:px-0">
                 <div className='grid xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 w-full xl:w-[90%] '>
                     {certificationData.certification.map((certification:any, i:number) => {
