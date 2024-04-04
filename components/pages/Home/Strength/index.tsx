@@ -12,7 +12,7 @@ const [count, setCount] = useState(false);
     <section id="strength" className="section-gap bg_gradient">
         <div className="container mx-auto ">
             <SectionTitle title={strengthCounter.title} subtitle={strengthCounter.subtitle}/>
-            <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-6'>
+            <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-6 px-6 lg:px-0'>
                 {strengthCounter.counter.map((counter: any, i: number) => {
                 return (
                     // <ScrollTrigger

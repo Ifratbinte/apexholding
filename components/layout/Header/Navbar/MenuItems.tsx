@@ -28,7 +28,7 @@ export interface NavInterface {
     },
     {
       id: 5,
-      title: "Csr",
+      title: "CSR",
       path: "#certification",
     },
     {

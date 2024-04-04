@@ -10,10 +10,7 @@ import React from 'react'
 const HomePage = () => {
   return (
     <div>
-      <div className=''>
-
       <Hero/>
-      </div>
       <About/>
       <Segments/>
       <KeyStrength/>

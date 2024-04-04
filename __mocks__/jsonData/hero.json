@@ -2,19 +2,19 @@
     "hero" : {
         "banner" : [
             {
+                "banner_img" : "/images/gallery/gallery-2.jpg",
+                "banner_title" : "A Pioneer in the",
+                "keyword" : "Textile Business",
+                "content" : "Apex Fashion Wear Limited (AFWL) is Apex Holdings Ltd.’s newest venture. It is housed in a modern 900,000 square foot building and was built to manufacture 100% export quality knit-garments for infants, children, and women’s fashionwear clients, made using in-house fabrics. AFWL is equipped to produce pieces using a wide range of fabrics, imported or sourced locally, and with a variety of designs provided by the buyer or collaboratively...",
+                "url" : "https://www.apexholdings.com/textiles"
+            },
+            {
                 "banner_img" : "/images/gallery/gallery-1.jpg",
                 "banner_title" : "A standard in the",
                 "keyword" : "Food Business",
                 "content" : "Apex Convenience Foods Limited (ACFL) is a new venture which has been planned based on a detailed analysis of the existing local and international Food market. Initially, we plan to capture the local food and beverage market and expand to export-ready to eat food products to the USA, European countries, and the Middle East as the demand for ready food is high in the international market.We believe, quality, taste, competitive price, and sustainable manufacturing...",
                 "url" : "https://www.apexholdings.com/foods"
                 
-            },
-            {
-                "banner_img" : "/images/gallery/gallery-2.jpg",
-                "banner_title" : "A Pioneer in the",
-                "keyword" : "Textile Business",
-                "content" : "Apex Fashion Wear Limited (AFWL) is Apex Holdings Ltd.’s newest venture. It is housed in a modern 900,000 square foot building and was built to manufacture 100% export quality knit-garments for infants, children, and women’s fashionwear clients, made using in-house fabrics. AFWL is equipped to produce pieces using a wide range of fabrics, imported or sourced locally, and with a variety of designs provided by the buyer or collaboratively...",
-                "url" : "https://www.apexholdings.com/textiles"
             },
             {
                 "banner_img" : "/images/gallery/gallery-3.jpg",
