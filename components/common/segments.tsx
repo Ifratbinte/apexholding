@@ -13,7 +13,7 @@ interface SegmentsProps {
 
 const Services: React.FC<SegmentsProps> = ({ index, image, title, content , url}) => {
   return (
-    <div className={`${index % 2 === 0 ? "bg-gradient-to-r from-[#cbedee] to-[#f3f2f3] " : "bg-gradient-to-r from-[#f8f8f1] to-[#eff3c7] "} ${styles.segments_inner} relative min-h-[300px] max-h-[300px] rounded-2 p-5`}>
+    <div className={`${index % 2 === 0 ? "bg-gradient-to-r from-[#cbedee] to-[#f3f2f3] " : "bg-gradient-to-r from-[#f8f8f1] to-[#eff3c7] "} ${styles.segments_inner} relative min-h-[300px] max-h-[300px] rounded-2 p-5`} data-aos="fade-up" data-aos-duration="1200">
       <div className="absolute">
         <div className="segments-icon w-[80px] h-[80px">
           <img src={image} alt="" className="rounded-circle p-3 mb-3 h-16 w-16" />

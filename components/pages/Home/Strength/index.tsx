@@ -11,7 +11,9 @@ const [count, setCount] = useState(false);
   return (
     <section id="strength" className="section-gap bg_gradient">
         <div className="container mx-auto ">
-            <SectionTitle title={strengthCounter.title} subtitle={strengthCounter.subtitle}/>
+            <div data-aos="fade-left" data-aos-duration="700">
+                <SectionTitle title={strengthCounter.title} subtitle={strengthCounter.subtitle}/>
+            </div>
             <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-6 px-6 lg:px-0'>
                 {strengthCounter.counter.map((counter: any, i: number) => {
                 return (
@@ -19,7 +21,7 @@ const [count, setCount] = useState(false);
                     //     onEnter={() => setCount(true)}
                     //     onExit={() => setCount(false)}
                     // >
-                        <div className="gap-12 text-center cursor-pointer p-6 rounded-md shadow-base transition-all border bg-white border-transparent hover:border-[#42b7ca]" key={i}>
+                        <div className="gap-12 text-center cursor-pointer p-6 rounded-md shadow-base transition-all border bg-white border-transparent hover:border-[#42b7ca]" key={i}  data-aos="fade-down" data-aos-duration="1200">
                             <img
                                 src={counter.icon}
                                 alt="count"

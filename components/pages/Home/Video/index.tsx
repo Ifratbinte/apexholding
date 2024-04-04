@@ -36,8 +36,11 @@ const VideoBlog = () => {
       };
   return (
     <section id="blog" className="section-gap bg_gradient_teal">
-        <div className="container mx-auto ">
-            <SectionTitle title='Video Gallery'/>
+        <div className="container mx-auto">
+            <div data-aos="fade-left" data-aos-duration="700">
+              <SectionTitle title='Video Gallery'/>
+            </div>
+            
             <div className="px-6 xl:px-0">
                 <Slider {...BlogSlider}>
                     {blogData.video.map((video:any, i:number) => {

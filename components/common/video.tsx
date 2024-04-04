@@ -5,7 +5,7 @@ interface Props {
 
 const YouTubeEmbed:React.FC<Props> = ({ embedId }) => {
   return (
-    <div className="aspect-w-16 aspect-h-9 mx-4">
+    <div className="aspect-w-16 aspect-h-9 mx-4"  data-aos="fade-up" data-aos-duration="1200">
       <iframe
         className="w-full min-h-[300px]"
         src={`https://www.youtube.com/embed/${embedId}`}

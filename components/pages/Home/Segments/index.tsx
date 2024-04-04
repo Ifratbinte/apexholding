@@ -9,7 +9,9 @@ const Segments = () => {
   return (
     <section id="segments" className="section-gap bg-[#F9F9F9]">
         <div className="container mx-auto">
-            <SectionTitle title={segmentsData.title} subtitle={segmentsData.subtitle}/>
+            <div data-aos="fade-right" data-aos-duration="700">
+                <SectionTitle title={segmentsData.title} subtitle={segmentsData.subtitle} />
+            </div>
             <div className='grid xl:grid-cols-4 sm:grid-cols-2 gap-6 segments px-6 lg:px-0'>
                 {segmentsData.segments.map((segments: any, i: number) => {
                     return (
