@@ -1,0 +1,16 @@
+{
+    "certification" : [
+        { "thumb" : "/images/certification/certification-1.png" },
+        { "thumb" : "/images/certification/certification-2.png" },
+        { "thumb" : "/images/certification/certification-3.png" },
+        { "thumb" : "/images/certification/certification-4.png" },
+        { "thumb" : "/images/certification/certification-5.png" },
+        { "thumb" : "/images/certification/certification-6.png" },
+        { "thumb" : "/images/certification/certification-7.png" },
+        { "thumb" : "/images/certification/certification-8.png" },
+        { "thumb" : "/images/certification/certification-9.png" },
+        { "thumb" : "/images/certification/certification-6.png" },
+        { "thumb" : "/images/certification/certification-11.png" },
+        { "thumb" : "/images/certification/certification-12.png" }
+    ]
+}

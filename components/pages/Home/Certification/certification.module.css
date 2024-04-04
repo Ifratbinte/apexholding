@@ -1,0 +1,16 @@
+.thumb_box{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    min-height: 150px;
+}
+.thumb_box:nth-of-type(7), 
+.thumb_box:nth-of-type(8), 
+.thumb_box:nth-of-type(9), 
+.thumb_box:nth-of-type(10), 
+.thumb_box:nth-of-type(11), 
+.thumb_box:nth-of-type(12) {
+    border-bottom: 0;
+}
+.thumb_box:nth-child(6), .thumb_box:nth-child(12) {
+    border-right: 0;
+}
