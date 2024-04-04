@@ -26,14 +26,14 @@ const [count, setCount] = useState(false);
                                 className="mx-auto w-20 h-20 p-2"
                             />
                             <h4 className="text-4xl font-poppins font-semibold mb-3">
-                                <CountUp
-                                    start={0}
-                                    end={counter.number}
-                                    duration={2}
-                                    delay={0}
-                                />
-                                {/* {count && (
-                                )}  */}
+                                {/* {count && ( */}
+                                    <CountUp
+                                        start={0}
+                                        end={counter.number}
+                                        duration={2}
+                                        delay={0}
+                                    />
+                                {/* )}  */}
                                 +
                             </h4>
                             <p className="lg:text-lg text-base font-poppins">
