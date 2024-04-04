@@ -1,4 +1,5 @@
 import About from '@/components/pages/Home/About'
+import Career from '@/components/pages/Home/Career'
 import Certification from '@/components/pages/Home/Certification'
 import Hero from '@/components/pages/Home/Hero'
 import Segments from '@/components/pages/Home/Segments/index'
@@ -15,6 +16,7 @@ const HomePage = () => {
       <KeyStrength/>
       <Certification/>
       <VideoBlog/>
+      <Career/>
     </div>
   )
 }

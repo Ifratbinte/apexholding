@@ -10,7 +10,10 @@ const config: Config = {
     extend: {
       boxShadow: {
         base : "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
-      }
+      },
+      backgroundImage: {
+        banner: "url('/images/join-us.png)",
+      },
     },
   },
   plugins: [],

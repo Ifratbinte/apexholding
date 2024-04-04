@@ -1,6 +1,7 @@
-.segments:nth-child(1) .service_icon{
+.segments:nth-of-type(1) .segments_icon{
     background-color: #b8c9ff;
 }
+/* .thumb_box:nth-of-type(7), */
 .segments_inner::before{
     content: "";
     position: absolute;
