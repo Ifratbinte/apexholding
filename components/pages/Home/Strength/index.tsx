@@ -11,7 +11,7 @@ const [count, setCount] = useState(false);
   return (
     <section id="strength" className="section-gap bg_gradient">
         <div className="container mx-auto ">
-            <SectionTitle title='Key Strength'/>
+            <SectionTitle title={strengthCounter.title} subtitle={strengthCounter.subtitle}/>
             <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-6'>
                 {strengthCounter.counter.map((counter: any, i: number) => {
                 return (

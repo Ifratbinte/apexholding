@@ -8,8 +8,8 @@ import SectionTitle from '@/components/common/widget/section-title';
 const Segments = () => {
   return (
     <section id="segments" className="section-gap bg-[#F9F9F9]">
-        <div className="container mx-auto ">
-            <SectionTitle title='Our Business Segments'/>
+        <div className="container mx-auto">
+            <SectionTitle title={segmentsData.title} subtitle={segmentsData.subtitle}/>
             <div className='grid xl:grid-cols-4 sm:grid-cols-2 gap-6 segments'>
                 {segmentsData.segments.map((segments: any, i: number) => {
                     return (
