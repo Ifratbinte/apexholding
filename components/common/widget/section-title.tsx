@@ -8,7 +8,7 @@ interface TitleProps{
 const SectionTitle:React.FC<TitleProps> = ({title}) => {
   return (
     <div className="relative">
-        <div className={`${styles.section_border} text-4xl font-semibold text-center pb-5 mb-10`}>{title}</div>
+        <div className={`${styles.section_border} text-4xl font-semibold text-center pb-5 mb-16`}>{title}</div>
     </div>
   )
 }

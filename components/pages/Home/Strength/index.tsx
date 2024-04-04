@@ -15,32 +15,32 @@ const [count, setCount] = useState(false);
             <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-6'>
                 {strengthCounter.counter.map((counter: any, i: number) => {
                 return (
-                    <ScrollTrigger
-                        onEnter={() => setCount(true)}
-                        onExit={() => setCount(false)}
-                    >
-                        <div className="gap-12 text-center cursor-pointer p-6 hover:shadow-base hover:transition" key={i}>
+                    // <ScrollTrigger
+                    //     onEnter={() => setCount(true)}
+                    //     onExit={() => setCount(false)}
+                    // >
+                        <div className="gap-12 text-center cursor-pointer p-6 rounded-md shadow-base transition-all border border-transparent hover:border-[#42b7ca]" key={i}>
                             <img
                                 src={counter.icon}
                                 alt="count"
                                 className="mx-auto w-20 h-20 p-2"
                             />
-                            <h4 className="text-5xl font-poppins font-semibold mb-3">
-                                {count && (
-                                    <CountUp
+                            <h4 className="text-4xl font-poppins font-semibold mb-3">
+                                <CountUp
                                     start={0}
                                     end={counter.number}
                                     duration={2}
                                     delay={0}
-                                    />
-                                )} 
+                                />
+                                {/* {count && (
+                                )}  */}
                                 +
                             </h4>
                             <p className="lg:text-lg text-base font-poppins">
                                 {counter.content}
                             </p>
                         </div>
-                    </ScrollTrigger>
+                    // </ScrollTrigger>
                     );
                 })}
             </div>
