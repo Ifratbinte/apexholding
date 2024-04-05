@@ -1,21 +1,12 @@
-### This is a [Task Management Dashboard](https://github.com/Ifratbinte/task-manage) project.
+### This is a Website Home page according to [Apex Holding Limited](https://apexholdings.com) content.
 
-Here I utilized technologies as Next.js, Typescript, Tailwind, RTK, Redux-persist.
+Here I utilized technologies as Next.js, Typescript, Tailwind, module css to build a modern, user friendly and responsive homepage. 
 
-#### The primary functionalities include : 
-
-- Add new task with required field & client-side form validation.
-- Display created task in a table.
-- Task details update.
-- Allowed user to mark task as complete. It maintained with a checkbox.
-- Delete task individually
-- Implemented filters task with active, completed and all options
-
-The project employs Redux-persist for browser localStorage & Redux Toolkit for state management, enhancing the scalability and maintainability of the application.
+#### Created all the required segments for this websites. 
 
 ## To run application locally
 
-First, clone the project from [https://github.com/Ifratbinte/task-manage](https://github.com/Ifratbinte/task-manage) 
+First, clone the project from [https://github.com/Ifratbinte/apexholding](https://github.com/Ifratbinte/apexholding) 
 
 Then follow the command lines : 
 
