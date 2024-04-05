@@ -18,7 +18,7 @@ const HeroComponent = () => {
   return (
     <div className='section-gap-b'>
       <div className='hero_shape_rotate relative overflow-hidden'></div>
-      <div className="mx-auto">
+      <div className="mx-auto pt-[120px]">
           <Slider {...HeroSlider}>
             {hero.map((data: any, i:number ) => {
               return(
