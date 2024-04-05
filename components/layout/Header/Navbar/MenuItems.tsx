@@ -14,12 +14,12 @@ export interface NavInterface {
     {
       id: 2,
       title: "About Us",
-      path: "#about",
+      path: "#",
     },
     {
       id: 3,
       title: "Our Businesses",
-      path: "#segments",
+      path: "#",
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ export interface NavInterface {
     {
       id: 5,
       title: "CSR",
-      path: "#certification",
+      path: "#",
     },
     {
       id: 6,

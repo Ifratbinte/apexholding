@@ -35,7 +35,7 @@ const VideoBlog = () => {
         ]
       };
   return (
-    <section id="blog" className="section-gap bg_gradient_teal">
+    <section className="section-gap bg_gradient_teal">
         <div className="container mx-auto">
             <div data-aos="fade-left" data-aos-duration="700">
               <SectionTitle title='Video Gallery'/>

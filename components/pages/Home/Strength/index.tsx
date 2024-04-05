@@ -9,7 +9,7 @@ import strengthCounter from "@/__mocks__/jsonData/strength.json"
 const KeyStrength = () => {
 const [count, setCount] = useState(false);
   return (
-    <section id="strength" className="section-gap bg_gradient">
+    <section className="section-gap bg_gradient">
         <div className="container mx-auto ">
             <div data-aos="fade-left" data-aos-duration="700">
                 <SectionTitle title={strengthCounter.title} subtitle={strengthCounter.subtitle}/>

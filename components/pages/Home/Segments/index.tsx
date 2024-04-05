@@ -7,7 +7,7 @@ import SectionTitle from '@/components/common/widget/section-title';
 
 const Segments = () => {
   return (
-    <section id="segments" className="section-gap bg-[#F9F9F9]">
+    <section className="section-gap bg-[#F9F9F9]">
         <div className="container mx-auto">
             <div data-aos="fade-right" data-aos-duration="700">
                 <SectionTitle title={segmentsData.title} subtitle={segmentsData.subtitle} />

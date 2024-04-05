@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id='#about' className='section-gap'>
+    <section className='section-gap'>
       <div className="container mx-auto">
           <div className="flex flex-col lg:justify-between lg:flex-row-reverse items-center xl:w-[90%] mx-auto px-6 lg:px-0">
             <div className="lg:w-5/12">
