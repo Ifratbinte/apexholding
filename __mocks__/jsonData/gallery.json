@@ -1,0 +1,36 @@
+{
+    "gallery" : [
+        {
+            "thumb" : "/images/gallery/gallery-1.jpg",
+            "title" : "Food"
+        },
+        {
+            "thumb" : "/images/gallery/gallery-2.jpg",
+            "title" : "Textile"
+        },
+        {
+            "thumb" : "/images/gallery/gallery-3.jpg",
+            "title" : "Agro"
+        },
+        {
+            "thumb" : "/images/gallery/gallery-4.jpg",
+            "title" : "Diversified"
+        },
+        {
+            "thumb" : "/images/gallery/gallery-5.jpg",
+            "title" : "Textile"
+        },
+        {
+            "thumb" : "/images/gallery/gallery-6.jpg",
+            "title" : "Textile"
+        },
+        {
+            "thumb" : "/images/gallery/gallery-7.jpg",
+            "title" : "Diversified"
+        },
+        {
+            "thumb" : "/images/gallery/gallery-8.jpg",
+            "title" : "Agro"
+        }
+    ]
+}

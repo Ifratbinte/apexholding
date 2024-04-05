@@ -38,7 +38,7 @@ const VideoBlog = () => {
     <section className="section-gap bg_gradient_teal">
         <div className="container mx-auto">
             <div data-aos="fade-left" data-aos-duration="700">
-              <SectionTitle title='Video Gallery'/>
+              <SectionTitle title='Our Blogs'/>
             </div>
             
             <div className="px-6 xl:px-0">
