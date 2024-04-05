@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import MasterLayout from "@/containers/MasterLayout";
 import { useEffect } from "react";
+import ScrollToTopButton from "@/components/ScrollToTop";
 
 interface Props {
   children: JSX.Element | JSX.Element[];
@@ -22,6 +23,7 @@ const Layout: React.FC<Props> = ({ children }) => {
     <html lang="en">
       <body>
         <MasterLayout>{children}</MasterLayout>
+        <ScrollToTopButton/>
       </body>
     </html>
   );
